@@ -1,0 +1,23 @@
+{
+  "name": "school",
+  "version": "1.0.0",
+  "description": "App for managing students, teachers, workshops and workshop cycles",
+  "main": "bin/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/viskoo/school.git"
+  },
+  "keywords": [
+    "school",
+    "workshops"
+  ],
+  "author": "Ivan Viskovic",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/viskoo/school/issues"
+  },
+  "homepage": "https://github.com/viskoo/school#readme"
+}
