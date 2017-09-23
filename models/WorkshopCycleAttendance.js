@@ -2,7 +2,7 @@
 
 module.exports = function(sequelize, dataTypes) {
 
-	return sequelize.define("workshopAttendance", {
+	return sequelize.define("workshopCycleAttendance", {
 		"id": {
 			"type": dataTypes.INTEGER.UNSIGNED,
 			"autoIncrement": true,
@@ -17,7 +17,8 @@ module.exports = function(sequelize, dataTypes) {
 			"unique": "compositeIndex"
 		},
 		"attendance": {
-			"type": dataTypes.INTEGER(1).UNSIGNED
+			"type": dataTypes.INTEGER(1).UNSIGNED,
+			"defaultValue": 0
 		},
 		"comment": {
 			"type": dataTypes.TEXT

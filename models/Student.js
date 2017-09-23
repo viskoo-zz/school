@@ -42,7 +42,8 @@ module.exports = function(sequelize, dataTypes) {
 			"type": dataTypes.STRING(256)
 		},
 		"active": {
-			"type": dataTypes.INTEGER(1).UNSIGNED
+			"type": dataTypes.INTEGER(1).UNSIGNED,
+			"defaultValue": 1
 		}
 	}, {
 

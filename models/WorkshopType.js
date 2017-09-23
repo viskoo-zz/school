@@ -15,7 +15,8 @@ module.exports = function(sequelize, dataTypes) {
 			"type": dataTypes.STRING
 		},
 		"active": {
-			"type": dataTypes.INTEGER(1).UNSIGNED
+			"type": dataTypes.INTEGER(1).UNSIGNED,
+			"defaultValue": 1
 		},
 		"position": {
 			"type": dataTypes.INTEGER(4).UNSIGNED
